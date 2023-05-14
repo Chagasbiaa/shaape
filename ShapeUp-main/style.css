@@ -1168,7 +1168,6 @@ border-radius: 37px;
     height: 0px;
     left: 450px;
     top: 3380px;
-    
     border: 1px solid #BFBFBF;
 }
 
@@ -1181,7 +1180,6 @@ border-radius: 37px;
     
     border: 1px solid #BFBFBF;
 }
-
 .ou{
     position: absolute;
     width: 23px;
@@ -1197,7 +1195,6 @@ border-radius: 37px;
 
     color: #2F2F2F; 
 }
-
 .tudo input{
     position: absolute;
     width: 671px;
@@ -1213,7 +1210,6 @@ border-radius: 37px;
     padding-left: 50px;
 }
 
-
 #senha{
     position: absolute;
     width: 671px;
@@ -1228,13 +1224,11 @@ border-radius: 37px;
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
 }
 
-
-
 .tudo #email{
     position: absolute;
-    left: 25%;
+    left: 350px;
     right: 67.04%;
-    top: 76%;
+    top: 3480px;
     bottom: 16.77%;    
     width: 25px;
     height: 20px;
@@ -1252,9 +1246,9 @@ border-radius: 37px;
 
 .tudo #senhaimg{
     position: absolute;
-    left: 25%;
+    left: 350px;
     right: 67.04%;
-    top: 75%;
+    top: 3480px;
     bottom: 16.77%;    
     width: 20px;
     height: 20px;
@@ -1269,6 +1263,118 @@ border-radius: 37px;
     font-family: "Poppins";
     font-size: 18px;
 }
+
+.retangulo{
+    position: relative;
+    width: 100%;
+    height: 493px;
+    margin-top:1200px;
+    background: #D9D9D9;
+    box-shadow: 0px -5px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+}
+
+.logo-div{
+    display:flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 533px;
+    height: 182px;
+    margin-top: 30px;
+    margin-left: 0px;    
+}
+
+nav, ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.opcoes{
+    display: flex;
+    justify-content: center;       
+}
+
+ul{
+    display: flex;
+    list-style: none
+}
+
+li{
+    list-style: none;    
+    margin-right: 8%;
+    max-width: 900px;
+}
+
+li a{    
+    left:3opx;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #161616;
+    max-width: 6000px;
+    font-size:20px;
+}
+
+li a:hover{
+    color: #686868;
+}
+
+.textfooter{
+    position: relative;
+    width: 800px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #323232;
+    margin-left: 20%;
+}
+
+p.contato{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.divesquerda{
+
+position: absolute;
+width: 500px;
+height: 55px;
+left: 0px;
+top: 440px;
+margin-left: -10px;
+
+background: #014F87;
+border-radius: 0px 100px 0px 0px;
+    
+}
+
+.divdireita{
+    position: absolute;
+    width: 488px;
+    height: 55px;
+    top: 440px;
+    margin-left: 860px;    
+    border-radius: 100px 0px 0px 0px;
+    background-color: #014F87;
+}
+
+.redessociais{
+    position: absolute;
+    top: 450px;
+    margin-left: 40%;   
+}
+
+.redessociais a{
+    margin-left: 15px;
+}
+
       
 @media only screen and (min-width:500px) and (max-width:700px){
     .body{
@@ -1306,7 +1412,7 @@ border-radius: 37px;
         }
         
         .nav ul li{
-            margin-left: 60px;
+            margin-left: 30px;
             font-size: 16px;
         }
 
@@ -1575,13 +1681,14 @@ border-radius: 37px;
         
         .tudo button img{
             position: absolute;
-            left: 0px;
-            top: 50px;
+            margin-left: 0px;
+            top: 17px;
+            left: 100px;    
         }
         
         #face img{
             position: absolute;
-            left: 150px;
+            left: 100px;
             right: 53.04%;
             top: 17px;
             bottom: 22.19%;
@@ -1618,35 +1725,26 @@ border-radius: 37px;
         
     
         .tudo #email{
-            position: absolute;
-            left: 25%;
-            right: 67.04%;
-            top: 76%;
-            bottom: 16.77%;    
-            width: 25px;
-            height: 20px;
-            margin-left: 120px;
-            margin-top: -55px;
+            left: -55px;
+            top:  5930px;
+            
         }
         
         .tudo #emailplace{
-            width: 450px;
+            left: 50px;
+            top:  5855px;
+            width: 350px;
         }
         
         .tudo #senha{
-            width: 450px;
+            left: 50px;
+            top:  5930px;
+            width: 350px;
         }
         
         .tudo #senhaimg{
-            position: absolute;
-            left: 25%;
-            right: 67.04%;
-            top: 75%;
-            bottom: 16.77%;    
-            width: 20px;
-            height: 20px;
-            margin-left: 120px;
-            margin-top: 25px;
+            top:  5930px;
+            left: -55px;
         }
         
         .tudo #login{
@@ -1656,6 +1754,44 @@ border-radius: 37px;
             font-family: "Poppins";
             font-size: 18px;
         }
+
+   
+        .opcoes{
+        
+           margin-left:20px;     
+        }
+        
+        ul{
+            margin-left: 50px;
+        }
+        .retangulo{
+            margin-top:720px;;
+        }
+        
+        .textfooter{
+           visibility: hidden;
+        }
+        
+        p.contato{
+           margin-top:-20px;
+           font-size: 20px;
+        }
+
+
+        .redessociais{
+            position: absolute;
+            top: 450px;
+            margin-left: 25%;   
+        }
+        
+        .redessociais a{
+            margin-left: 15px;
+        }
+
+        .divdireita{
+           visibility: hidden;
+        }
+        
     
     }
    
